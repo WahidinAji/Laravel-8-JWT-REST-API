@@ -14,16 +14,30 @@ $ //setup database
 ```
 ```bash
 $ php artisan key:generate
+$ php artisan jwt:secret
 ```
 ```bash
 $ php artisan migrate
 ```
+
+* i recomended u to use 8001 port. 'cuz, the port is compatible with testing script in `postman`
 ```bash
-$ php artisan serve 
-$ or
-$ php artisan serve --port=8001 `optional`
+$ php artisan serve --port=8001
 ```
 
+### Postman
+* import collection `JWT Laravel 8.postman_collection.json` to ur postman
+* import environment `JWT Laravel 8.postman_environment.json` to ur postman
+
+* Don't forget to selecting an active environment
+https://learning.postman.com/docs/sending-requests/managing-environments/#selecting-an-active-environment
+* run the collection
+
+### Reference
+  * <a href="https://learning.postman.com/docs/getting-started/introduction/">Learning Postman</a>
+  * <a href="https://www.avyatech.com/rest-api-with-laravel-8-using-jwt-token/">Avyatech's Blog</a>
+  * <a href="https://jwt-auth.readthedocs.io/en/develop/">JWT Laravel by <a href="https://github.com/tymondesigns">Tymon</a></a>
+  * <a href="https://laravel.com">Laravel</a>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
