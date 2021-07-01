@@ -30,7 +30,7 @@ $ php artisan serve --port=8001
 * import environment `JWT Laravel 8.postman_environment.json` to ur postman
 
 * Don't forget to selecting an active environment
-https://learning.postman.com/docs/sending-requests/managing-environments/#selecting-an-active-environment
+  - <a href="https://learning.postman.com/docs/sending-requests/managing-environments/#selecting-an-active-environment">How to selecting an active environment</a>
 * run the collection
 
 ### Reference
